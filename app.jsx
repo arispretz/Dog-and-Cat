@@ -5,7 +5,6 @@ const catImgUrl = 'https://cdn.glitch.global/d85dc994-ed5d-4667-916a-203be8cd4f9
 const dogImgUrl = 'https://cdn.glitch.global/d85dc994-ed5d-4667-916a-203be8cd4f91/thumbnails%2Fdog.jpg?1718217129891';
 
 const App = () => {
-  // declarar estado
   const [image, setImage] = useState(catImgUrl);
 
   const changeAnimal = () => {
@@ -16,7 +15,7 @@ const App = () => {
   return (
     <>
     <div className='App'>
-      <h1>30 Days Of React</h1>
+      <h1>Dog and Cat</h1>
       <div className='animal'>
         <img src={image} alt='animal' />
       </div>
